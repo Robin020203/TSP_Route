@@ -27,8 +27,9 @@ Verder wordt de route gevisualiseerd en de totale afstand wordt berekend.
 
 1. Clone de repository:
    ```bash
-   git clone https://github.com/<jouw-gebruikersnaam>/<repo-naam>.git
-   cd <repo-naam>
+   git clone https://github.com/Robin020203/Routeberekening.git
+   cd Routeberekening
+
 
 2. Installeer vereiste Python-pakketten:
 
