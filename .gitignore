@@ -1,0 +1,15 @@
+# CSV- en datafiles
+*.csv
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# macOS systeemfiles
+.DS_Store
+
+# Pycharm instellingen
+.idea/
+
+# Omgevingsvariabelen
+.env
