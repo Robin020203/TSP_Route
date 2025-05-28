@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 afstand_matrix = pd.read_csv("2_DistanceMatrix_openrouteservice.csv").to_numpy()
 adres_df = pd.read_csv("1_Zone7_met_coordinaten.csv")
 
-# Startpunt (gekozen): Jetsesteenweg 610 (gevonden op index 63)
-start_index = 63
+# Startpunt (gekozen): Voorbeeld: Steenweg 10 (gevonden op index 63)
+start_index = 63 # VERANDER DEZE NAAR INDEX VAN GEKOZEN STARTPUNT
 
 def nearest_neighbor_fixed_start(matrix, start):
     n = len(matrix)
