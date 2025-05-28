@@ -30,7 +30,6 @@ Verder wordt de route gevisualiseerd en de totale afstand wordt berekend.
    git clone https://github.com/Robin020203/Routeberekening.git
    cd Routeberekening
 
-
 2. Installeer vereiste Python-pakketten:
 
 `pip install pandas numpy matplotlib openrouteservice`
@@ -39,11 +38,11 @@ Verder wordt de route gevisualiseerd en de totale afstand wordt berekend.
 
 `https://openrouteservice.org/dev/#/api-docs`
    
-5. Run in deze volgorde:
+5. Run in deze volgorde (verander overal de namen van de CSV files die worden gemaakt, plaats staat duidelijk aangegeven in comments):
    
-`1_Adress->Coordinate.py`
+`1_Adress->Coordinate.py` (Laad het bestand in)
 
-`2_DistanceMatrix.py`
+`2_DistanceMatrix.py` (Voeg API-sleutel toe en kies ook je profile: te voet, met de fiets of met de auto)
 
 `3_RouteBerekening.py`
 
