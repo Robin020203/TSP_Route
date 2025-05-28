@@ -26,6 +26,8 @@ def nearest_neighbor_fixed_start(matrix, start):
 route = nearest_neighbor_fixed_start(afstand_matrix, start_index)
 route_df = adres_df.iloc[route].reset_index(drop=True)
 route_df["matrix_index"] = route  # voeg matrix-index toe aan optimale route (nodig voor afstand te berekenen)
+
+# Oplsaan als CSV (verander naam en update in 4_VisualRoute en 5_Kilometerberekening)
 route_df.to_csv("3_RouteOptimaal.csv", index=False)
 print("Optimale route opgeslagen als '3_RouteOptimaal.csv'")
 

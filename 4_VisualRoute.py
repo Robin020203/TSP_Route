@@ -23,6 +23,6 @@ for i, row in df.iterrows():
 route_coords = df[['latitude', 'longitude']].values.tolist()
 folium.PolyLine(route_coords, color="red", weight=3, opacity=0.8).add_to(m)
 
-# Sla kaart op
+# Sla kaart op (verander naam)
 m.save("4_VisueleRoutekaart.html")
 print("Routekaart opgeslagen als '4_VisueleRoutekaart.html'")

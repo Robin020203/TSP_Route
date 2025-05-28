@@ -5,7 +5,8 @@ from tqdm import tqdm
 
 
 # Bestand inlezen
-df = pd.read_csv("/Users/robinschildermans/Downloads/Zone7_met_volledige_adressen.csv")
+df = pd.read_csv("...")
+# voorbeeld: df = pd.read_csv("/Users/robinschildermans/Downloads/Zone7_met_volledige_adressen.csv")
 
 # 1. Adresvelden (zonder BUS) combineren
 # Gecombineerde rij = [Straat + huisnummer], [postcode], [gemeente], Belgium
@@ -40,6 +41,6 @@ for adres in tqdm(df["volledig_adres"]):
 df["latitude"] = latitudes
 df["longitude"] = longitudes
 
-# 5. Resultaten opslaan
+# 5. Resultaten opslaan (verander naam & update in 2_DistanceMatrix)
 df.to_csv("1_Zone7_met_coordinaten.csv", index=False)
 print("Voltooid! Bestand opgeslagen als '1_Zone7_met_coordinaten.csv'")

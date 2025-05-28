@@ -42,6 +42,6 @@ for i in range(0, n, batch_size):
         except Exception as e:
             print(f"Fout bij blok ({i}, {j}): {e}")
 
-# Opslaan als CSV
+# Opslaan als CSV (verander naam en update in 3_RouteBerekening en 5_Kilometerberekening)
 pd.DataFrame(matrix).to_csv("2_DistanceMatrix_openrouteservice.csv", index=False)
 print("Volledige afstandsmatrix opgeslagen als '2_DistanceMatrix_openrouteservice.csv'")
