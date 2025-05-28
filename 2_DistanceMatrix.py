@@ -5,7 +5,7 @@ import time
 
 # openrouteservice API-sleutel (VUL ZELF AAN)
 API_KEY = "..."
-# VOORBEELD: API_KEY = "5b3ce397851110001cf6248bd398958c8a4e06beb2e2f49194b20d50"
+# VOORBEELD: API_KEY = "5b3...20d50"
 client = openrouteservice.Client(key=API_KEY)
 
 # Lees coördinaten
