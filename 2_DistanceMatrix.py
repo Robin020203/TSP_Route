@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 # openrouteservice API-sleutel (VUL ZELF AAN)
-API_KEY = "5b3ce3597851110001cf6248bd3198958c8a406bb2e2fe4994b20d50"
+API_KEY = "..."
 # VOORBEELD: API_KEY = "5b3...20d50"
 client = openrouteservice.Client(key=API_KEY)
 
