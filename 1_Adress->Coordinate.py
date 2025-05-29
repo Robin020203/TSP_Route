@@ -6,7 +6,6 @@ from tqdm import tqdm
 
 # Bestand inlezen
 df = pd.read_csv("...")
-# voorbeeld: df = pd.read_csv("/Users/naamachternaam/Downloads/DOCUMENT.csv")
 
 # 1. Adresvelden (zonder BUS) combineren
 # Gecombineerde rij = [Straat + huisnummer], [postcode], [gemeente], Belgium
