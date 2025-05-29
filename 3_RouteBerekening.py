@@ -7,7 +7,11 @@ afstand_matrix = pd.read_csv("2_DistanceMatrix_openrouteservice.csv").to_numpy()
 adres_df = pd.read_csv("1_Zone7_met_coordinaten.csv")
 
 # Startpunt (gekozen): Voorbeeld: Steenweg 10 (gevonden op index 63)
+<<<<<<< HEAD
 start_index = 63 # VERANDER DEZE NAAR INDEX VAN GEKOZEN STARTPUNT
+=======
+start_index = 63 # VERANDER DEZE
+>>>>>>> 5fd4b75 ( ORTools-routeberekening en nieuwe visualisatie toegevoegd)
 
 def nearest_neighbor_fixed_start(matrix, start):
     n = len(matrix)

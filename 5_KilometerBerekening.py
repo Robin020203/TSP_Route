@@ -4,8 +4,12 @@ import pandas as pd
 afstand_matrix = pd.read_csv("2_DistanceMatrix_openrouteservice.csv").to_numpy()
 
 # Laad geoptimaliseerde route inclusief matrix_index
-df = pd.read_csv("3_RouteOptimaal.csv")
-route = df["matrix_index"].astype(int).tolist()
+
+#df = pd.read_csv("3_RouteOptimaal.csv")
+#route = df["matrix_index"].astype(int).tolist()
+df = pd.read_csv("3_RouteOptimaal_ORtools.csv")
+route = df["index"].astype(int).tolist()
+
 
 # Bereken afstanden
 tussenafstand_km = []
